@@ -873,3 +873,7 @@ body {
 .gallery__bottomtext {
     text-decoration: underline;
 }
+
+#service-2m {
+    display: none;
+}
