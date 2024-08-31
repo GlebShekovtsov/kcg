@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media.css">
+    <title>Kitchen Cabinet Guys</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="header__logo">
+                <picture>
+                    <img src="images/logo.svg" alt="logo">
+                </picture>
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list list-reset">
+                    <li class="nav__item dropdown">
+                        <a class="nav__dropdown dropdown-toogle" href="#">
+                            <span class="nav__span">
+                                Services
+                            </span>
+                            <svg width="11" height="6" viewBox="0 0 11 6" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.0834 1.33333L5.50008 5.5L0.916748 1.33333L1.73029 0.59375L5.50008 4.02083L9.26987 0.59375L10.0834 1.33333Z"
+                                    fill="#151515" />
+                            </svg>
+                            <ul class="nav__dropdown-menu list-reset">
+                                <li class="dropdown__item"><a href="#" class="dropdown__link">Cabinet Refacing</a></li>
+                                <li class="dropdown__item"><a href="#" class="dropdown__link">Cabinet Doors
+                                        Replacement</a></li>
+                                <li class="dropdown__item"><a href="#" class="dropdown__link">Thermofoil Cabinet Door
+                                        Repair</a></li>
+                                <li class="dropdown__item"><a href="#" class="dropdown__link">Decorative Wall Panels</a>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__dropdown" href="#">
+                            <span class="nav__span">
+                                Commercial
+                            </span>
+                            <svg width="11" height="6" viewBox="0 0 11 6" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.0834 1.33333L5.50008 5.5L0.916748 1.33333L1.73029 0.59375L5.50008 4.02083L9.26987 0.59375L10.0834 1.33333Z"
+                                    fill="#151515" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav__item">Gallery</li>
+                    <li class="nav__item">
+                        <a class="nav__dropdown" href="#">
+                            <span class="nav__span">
+                                About Us
+                            </span>
+                            <svg width="11" height="6" viewBox="0 0 11 6" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.0834 1.33333L5.50008 5.5L0.916748 1.33333L1.73029 0.59375L5.50008 4.02083L9.26987 0.59375L10.0834 1.33333Z"
+                                    fill="#151515" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__dropdown" href="#">
+                            <span class="nav__span">
+                                Areas We Serve
+                            </span>
+                            <svg width="11" height="6" viewBox="0 0 11 6" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.0834 1.33333L5.50008 5.5L0.916748 1.33333L1.73029 0.59375L5.50008 4.02083L9.26987 0.59375L10.0834 1.33333Z"
+                                    fill="#151515" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="nav__item">Contact Us</li>
+                </ul>
+            </nav>
+            <div class="header__free free">
+                <a href="tel:+8008097197" class="free__num">(800) 809-7197</a>
+                <button class="btn btn-reset free__btn">Get a Free Estimate</button>
+            </div>
+            <div class="header__free-x1360 free">
+                <button class="btn btn-reset free__btn">
+                    <img src="/images/phone.svg" alt="phone icon">
+                </button>
+                <button class="burger-menu btn-reset" id="burger">
+                    <div class="burger-icon">
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                        <span class="burger__line"></span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+
+        <section class="section main__section hero" id="hero">
+            <div class="hero__container container">
+                <h1 class="hero__header">
+                    Your Kitchen Refacing Solution
+                </h1>
+                <p class="hero__paragraph">
+                    Bringing New Life to&nbsp;Your Kitchen Cabinets: American-Made, Family-Owned Company
+                </p>
+                <div class="hero__buttons">
+                    <button class="btn-reset btn">Get Your Free Estimate</button>
+                    <button class="btn-reset btn-transperent">View Our Process</button>
+                </div>
+            </div>
+            <div class="container hero__wrapper">
+                <ul class="hero__list offers list-reset">
+                    <li class="offers__item">
+                        <img class="offers__icon" src="/images/moneybag.svg" alt="moneybag icon">
+                        <p class="offers__paragraph">Unlock 70% savings: <span>reface instead of replace</span></p>
+                    </li>
+                    <li class="offers__item">
+                        <img class="offers__icon" src="/images/clock.svg" alt="clock icon">
+                        <p class="offers__paragraph">Transform your kitchen in <span>3-5 days</span></p>
+                    </li>
+                    <li class="offers__item">
+                        <img class="offers__icon" src="/images/handwithmoneybag.svg" alt="hand with moneybag icon">
+                        <p class="offers__paragraph">Kitchen <span>financing</span> options available</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section main__section services" id="services">
+            <div class="container services__container">
+                <h2 class="services__header services__header-big">Our Services</h2>
+                <ul class="services__list list-reset">
+                    <li class="services__item">
+                        <div class="services__image-block service-1">
+
+                        </div>
+                        <div class="services__text">
+                            <h4 class="services__subheader">Refresh Your Existing Kitchen with</h4>
+                            <h3 class="services__header">Cabinet Refacing</h3>
+                            <span class="services__span">Keep Your Existing Doors</span>
+                            <p class="services__paragraph">
+                                Our cabinet refacing service transforms the appearance of&nbsp;your kitchen while
+                                preserving its original layout and the structure of&nbsp;your existing cabinets and
+                                drawer fronts.
+                            </p>
+                            <button class="services__button btn-reset btn-transperent">
+                                Learn More
+                            </button>
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <div class="services__image-block service-2" id="service-2m">
+
+                        </div>
+                        <div class="services__text">
+                            <h4 class="services__subheader">Replace Your Cabinet Doors with</h4>
+                            <h3 class="services__header">Cabinet Door Replacement</h3>
+                            <span class="services__span">Custom-made Doors & Drawer Fronts</span>
+                            <p class="services__paragraph">
+                                If&nbsp;your cabinet doors and drawer fronts require a&nbsp;refresh, our team can
+                                manufacture new cabinet doors in-house. We&nbsp;ensure the new elements seamlessly blend
+                                with your existing kitchen, providing an&nbsp;affordable and efficient upgrade.
+                            </p>
+                            <button class="services__button btn-reset btn-transperent">
+                                Learn More
+                            </button>
+                        </div>
+                        <div class="services__image-block service-2">
+
+                        </div>
+                    </li>
+                    <li class="services__item">
+                        <div class="services__image-block service-3">
+
+                        </div>
+                        <div class="services__text services__last">
+                            <h4 class="services__subheader">Renew Your Peeling Cabinet Doors with</h4>
+                            <h3 class="services__header">Thermofoil Cabinet Door Repair</h3>
+                            <span class="services__span">Nationwide Shipping</span>
+                            <p class="services__paragraph">
+                                We&nbsp;are one of&nbsp;very few cabinet refacing companies who can do&nbsp;this service
+                                at&nbsp;our workshop here in&nbsp;West Chicago, without disrupting your daily routine.
+                                Just ship your peeling or&nbsp;delaminating doors and fronts and get them back updated
+                                in&nbsp;less time than ordering new ones. We&nbsp;offer 48h repairs for Illinois
+                                residents.
+                            </p>
+                            <button class="services__button btn-reset btn-transperent">
+                                Learn More
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section main__section gallery" id="gallery">
+            <div class="container gallery__container">
+                <div class="gallerу__upperwrapper">
+                    <h3 class="gallery__header">
+                        Gallery
+                    </h3>
+                    <div class="gallery__upbuttons gupbuttons">
+                        <p class="gupbuttons__description">
+                            Browse our gallery to&nbsp;see before and after photos of&nbsp;our previous cabinet refacing
+                            projects. Our transformative work speaks for itself.
+                        </p>
+                        <button class="gupbuttons__button btn-reset btn-transperent">
+                            Browse The Gallery
+                        </button>
+                    </div>
+                </div>
+                <div class="gallery__middlewrapper">
+                    <div class="gallery__left gallery__item">
+                        <div class="button gallery__button btn-reset btn-transperent">Before</div>
+                    </div>
+                    <div class="gallery__right gallery__item">
+                        <div class="button gallery__button btn-reset btn-transperent">After</div>
+                    </div>
+                </div>
+                <div class="gallery__bottomwrapper">
+                    <p class="gallery__bottomtext">
+                        View The Project
+                    </p>
+                    <div class="gallery__bottombuttons">
+                        <button class="btn btn-reset btn-transperent gallery__button-bottom">
+                            <svg width="16" height="17" viewBox="0 0 16 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M10.6667 15.5833L4 8.49996L10.6667 1.41663L11.85 2.67392L6.36667 8.49996L11.85 14.326L10.6667 15.5833Z"
+                                    fill="#F6F3EC" />
+                            </svg>
+                        </button>
+                        <button class="btn btn-reset btn-transperent gallery__button-bottom">
+                            <svg width="16" height="17" viewBox="0 0 8 15" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M1.33333 14.5833L8 7.49996L1.33333 0.416626L0.15 1.67392L5.63333 7.49996L0.15 13.326L1.33333 14.5833Z"
+                                    fill="#F6F3EC" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section main__section testimonials__sections" id="testimonials">
+            <div class="testimonials__container container">
+                <div class="testimonials__uppper">
+                    <h2 class="testimonials__header">
+                        Testimonials
+                    </h2>
+                    <p class="testimonials__descr">
+                        Read what our satisfied clients say about their experience with Kitchen Cabinet Guys and the
+                        quality of&nbsp;our work.
+                    </p>
+                </div>
+                <ul class="testimonials__list list-reset">
+                    <li class="testimonials__item">
+                        <div class="testimonials__stars">
+                            <span class="fa fa-star checked testimonials__star"></span>
+                            <span class="fa fa-star checked testimonials__star"></span>
+                            <span class="fa fa-star checked testimonials__star"></span>
+                            <span class="fa fa-star checked testimonials__star"></span>
+                            <span class="fa fa-star checked testimonials__star"></span>
+                        </div>
+                        <p class="testimonials__text">
+                            THE Kitchen Cabinet Guys ARE GREAT! HIGHLY RECOMMENDED! I&nbsp;found them on&nbsp;the Web
+                            (Google Search) and filled out a&nbsp;&laquo;Contact&raquo; form on&nbsp;a&nbsp;Sat.
+                            I&nbsp;couldn&rsquo;t believe that Andrei called me&nbsp;on&nbsp;Sunday morn.
+                            &mdash;&nbsp;I&nbsp;told my&nbsp;wife &laquo;I&nbsp;already like these guys!&raquo;.
+                        </p>
+                        <div class="testimonials__post">
+                            Christopher Torre
+                        </div>
+                    </li>
+                    <li class="testimonials__item">
+                        <div class="testimonials__stars">
+                            <span class="fa fa-star checked testimonials__star"></span>
+                            <span class="fa fa-star checked testimonials__star"></span>
+                            <span class="fa fa-star checked testimonials__star"></span>
+                            <span class="fa fa-star checked testimonials__star"></span>
+                            <span class="fa fa-star checked testimonials__star"></span>
+                        </div>
+                        <p class="testimonials__text">
+                            Andre and the team @ Kitchen Cabinet Guys LLC did a&nbsp;stunning transformation
+                            of&nbsp;my&nbsp;family&rsquo;s kitchen. Our realtor said we&nbsp;easily increased the value
+                            of&nbsp;our home by&nbsp;$30k for less than a&nbsp;third of&nbsp;the cost. If&nbsp;anyone
+                            is&nbsp;considering a&nbsp;new kitchen,
+                        </p>
+                        <div class="testimonials__post">
+                            Michael Jason
+                        </div>
+                    </li>
+                    <li class="testimonials__item">
+                        <div class="testimonials__stars">
+                            <span class="fa fa-star checked testimonials__star"></span>
+                            <span class="fa fa-star checked testimonials__star"></span>
+                            <span class="fa fa-star checked testimonials__star"></span>
+                            <span class="fa fa-star checked testimonials__star"></span>
+                            <span class="fa fa-star checked testimonials__star"></span>
+                        </div>
+                        <p class="testimonials__text">
+                            THE Kitchen Cabinet Guys ARE GREAT! HIGHLY RECOMMENDED! I&nbsp;found them on&nbsp;the Web
+                            (Google Search) and filled out a&nbsp;&laquo;Contact&raquo; form on&nbsp;a&nbsp;Sat.
+                            I&nbsp;couldn&rsquo;t believe that Andrei called me&nbsp;on&nbsp;Sunday morn.
+                            &mdash;&nbsp;I&nbsp;told my&nbsp;wife &laquo;I&nbsp;already like these guys!&raquo;.
+                        </p>
+                        <div class="testimonials__post">
+                            Christopher Torre
+                        </div>
+                    </li>
+                </ul>
+                <div class="testimonials__buttons">
+                    <button class="btn btn-reset btn-transperent testimonials__button-bottom">
+                        <svg width="16" height="17" viewBox="0 0 16 17" fill="#5e5e5e"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10.6667 15.5833L4 8.49996L10.6667 1.41663L11.85 2.67392L6.36667 8.49996L11.85 14.326L10.6667 15.5833Z"
+                                fill="#F6F3EC" />
+                        </svg>
+                    </button>
+                    <button class="btn btn-reset btn-transperent testimonials__button-bottom">
+                        <svg width="16" height="17" viewBox="0 0 8 15" fill="#5e5e5e"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M1.33333 14.5833L8 7.49996L1.33333 0.416626L0.15 1.67392L5.63333 7.49996L0.15 13.326L1.33333 14.5833Z"
+                                fill="#F6F3EC" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section class="section main__section contact__section" id="contact">
+            <div class="contact__container container">
+                <div class="contact__left"></div>
+                <div class="contact__right">
+                    <h2 class="contact__header">
+                        Take the First Step Towards Your Kitchen Makeover
+                    </h2>
+                    <p class="contact__descr">
+                        Ready to&nbsp;transform your kitchen? Contact&nbsp;us today to&nbsp;get started with your free
+                        estimate!
+                    </p>
+                    <form action="index.html" method="post" class="contact__form">
+                        <div class="contact__wrapper">
+                            <input type="text" class="contact__input" placeholder="First Name">
+                            <input type="text" class="contact__input" placeholder="Last Name">
+                            <input type="text" class="contact__input" placeholder="Email">
+                            <input type="text" class="contact__input" placeholder="Phone">
+                        </div>
+                        <input type="text" class="contact__input-long" placeholder="Address">
+                        <select name="service" id="service" class="contact__select">
+                            <option value="Select Service" selected>Select Service</option>
+                        </select>
+                        <textarea name="message" id="message" class="contact__textarea">Message</textarea>
+                        <button class="btn btn-reset contact__button">Get a Free Estimate</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container">
+            <div class="footer__left">
+                <h3 class="footer__header">Physical Address:</h3>
+                <address class="footer__address">245 W. Roosevelt Rd 4 Unit 29, West Chicago, IL 60185</address>
+                <h3 class="footer__header">Phone:</h3>
+                <a href="tel:+8008097197" class="footer__phonenum">(800) 809-7197</a>
+                <h3 class="footer__header">Hours of Operation:</h3>
+                <p class="footer__hours">
+                    Our Online Support is&nbsp;available 24/7 Monday&nbsp;&mdash; Friday: 9:00&nbsp;AM&nbsp;&mdash;
+                    5:00&nbsp;PM Saturday: 9:00&nbsp;AM&nbsp;&mdash; 2:00&nbsp;PM Sunday: Closed
+                </p>
+            </div>
+            <div class="footer__middle middle">
+                <h3 class="footer__header footer__mheader">Follow Us:</h3>
+                <ul class="footer__follow list-reset">
+                    <li class="footer__links">
+                        <a href="#" class="footer__link">
+                            <img src="/images/yelp.svg" alt="yelp">
+                        </a>
+                    </li>
+                    <li class="footer__links">
+                        <a href="#" class="footer__link footer__rlink">
+                            <img src="/images/facebook.svg" alt="facebook">
+                        </a>
+                    </li>
+                </ul>
+                <h3 class="footer__header footer__sheader">Brought to you by</h3>
+                <img src="/images/thermofliplogo.png" alt="thermoflip logo" class="footer__mimage">
+                <ul class="list-reset middle__list">
+                    <li class="middle__item">
+                        <img src="/images/homeadvisor.png" alt="" class="middle__image">
+                    </li>
+                    <li class="middle__item">
+                        <img src="/images/3years.png" alt="" class="middle__image">
+                    </li>
+                    <li class="middle__item">
+                        <img src="/images/accredited.png" alt="" class="middle__image">
+                    </li>
+                </ul>
+                <p class="middle__text">
+                    Copyright &copy;&nbsp;2023 Kitchen Cabinet Guys&nbsp;&mdash; All Rights Reserved
+                </p>
+            </div>
+            <div class="footer__right right">
+                <ul class="right__list-left list-reset">
+                    <li class="right__item">Blog</li>
+                    <li class="right__item">FAQ</li>
+                </ul>
+                <ul class="right__list-right list-reset">
+                    <li class="right__item">Privacy Policy</li>
+                    <li class="right__item">Terms & Conditions</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
